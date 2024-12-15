@@ -1,0 +1,152 @@
+/* HTML */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+    font-size: 2px;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poppins";
+    background-color: #07090a;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER */
+    .header {
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        width: 745.8rem;
+        width: auto;
+        height: auto;
+        z-index: 1000;
+        background-color: #ea680a;
+        color: #ffffff;
+        font-family: "Poppins Regular";
+        padding: 5rem;
+        font-size: 10rem;
+    }
+    .logo {
+        padding-left: 12rem;
+        width: 125rem;
+    }
+    .nav-links {
+        display: flex; 
+        gap: 20rem;
+
+    }
+    .downloadbox {
+        width: fit-content;
+        border-radius: 7.5rem;
+        padding: 1.5rem 20rem;
+        background-color: #181f23;
+    }
+    .features{
+
+        transition: color 0.3s ease;
+    }
+    .tutorials {
+        transition: color 0.3s ease;
+    }
+    .downloads {
+        transition: color 0.3s ease;
+    }
+    .downloadbox {
+        transition: color 0.3s ease;
+        transition: border-radius 0.3s ease;
+    }
+    .features:hover {
+        border-radius: 2.5rem;
+        color: #181f23;
+        transition: color 0.3s ease;
+    }
+    .tutorials:hover {
+        border-radius: 2.5rem;
+        color: #181f23;
+        transition: color 0.3s ease;
+    }
+    .downloads:hover {
+        border-radius: 2.5rem;
+        color: #ea680a;
+        transition: color 0.3s ease;
+    }
+    .downloadbox:hover {
+        border-radius: 2.5rem;
+        color: #ea680a;
+        transition: color 0.3s ease;
+        transition: border-radius 0.3s ease;
+    }
+
+/* SLIDING PICTURES */
+    .slidingpictures {
+        height: 333rem;
+        overflow: hidden;
+    }
+    #top-image {
+        align-items: center;
+        width: 100%/*800rem*/;
+        height: auto/*422rem*/;
+        transition: transform 1s ease-in-out;
+    }
+
+/* BODY */
+    .body {
+        height: fit-content;
+        position: relative;
+    }
+    /* DIV - QUOTE */
+    .div-img-quote-learn {
+        position: relative;
+        width: 50rem;
+    }
+    .img-quote-learn {
+        position: absolute;
+        top: 20rem;
+        left: 200rem;
+        width: 200rem;
+    }
+    .quote-learn {
+        position: absolute;
+        font-family: 'Poppins Light';
+        font-size: 10rem;
+        top: 10rem;
+        left: 430rem;
+        width: 100rem;
+        color: #ffffff;
+    }
+    #text-experience {
+        transition: color 0.3s ease;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 4px;
+        padding-right: 4px;
+        margin-top: 25px;
+        border-radius: 5px;
+        background-color: #181f23;
+        color: #181f23;
+        font-size: 20rem;
+    }
+    #text-experience:hover {
+        color: #ea680a;
+        transition: color 0.3s ease;
+    }
+
+    #features-overview {
+        color: white;
+        position: absolute;
+        font-size: 20rem;
+        font-family: "poppins regular";
+        bottom: 80rem;
+        left: 320rem;
+    }
+    #otherbody{
+        height: fit-content;
+        width: 20rem;
+        background-color: #ea680a;
+    }
+
