@@ -3,7 +3,8 @@ var index = 0;
 setInterval(function() {
     index = (index + 1) % images.length;
     document.getElementById('top-image').src = images[index];
-}, 5000); 
+}, 5000);
+
 
 
 //HOVER: "EXPERIENCE"
