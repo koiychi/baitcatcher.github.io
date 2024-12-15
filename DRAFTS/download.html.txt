@@ -1,3 +1,6 @@
+MILES
+Dec. 15, 2024
+
 <!DOCTYPE html>
 <html lang="en">
     
@@ -36,6 +39,15 @@
     </header>
     <!--CODE WITHIN #content ONLY-->
     <div id="content">
+        <div id="try">
+            <p>Try lang HAHA</p>
+        </div>
+        <div id="container">
+            <p id="startcatch">Start Catching</p>
+            <p id="forAndroid">Download now for Android</p>
+            <button id="download-button">Download</button>
+        </div>
+        
     </div>
 
 

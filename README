@@ -10,3 +10,4 @@ COLORS:
     ORANGE: #ea680a
     GRAY (BGColor): #07090a
     WHITE: #ffffff
+    GRAY (Buttons): #181F23
