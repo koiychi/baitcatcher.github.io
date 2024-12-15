@@ -1,4 +1,4 @@
-var images = ['images/top-images/top-image1.png', 'images/top-images/top-image2.png', 'images/top-images/top-image3.png', 'images/top-images/top-image4.png'];
+var images = ['../images/top-images/top-image1.png', '../images/top-images/top-image2.png', '../images/top-images/top-image3.png', '../images/top-images/top-image4.png'];
 var index = 0; 
 setInterval(function() {
     index = (index + 1) % images.length;
