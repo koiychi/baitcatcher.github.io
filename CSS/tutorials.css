@@ -1,2 +1,14 @@
+#content{
+	text-align: center;
+}
 
+.tutorial-logo{
+	margin-top: 80px;
+	width: 35%;
+  height: auto;
+}
+
+#content h3 {
+	margin-left: 10px;
+}
 
