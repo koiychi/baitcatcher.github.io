@@ -11,13 +11,9 @@ $(document).ready(function() {
 
             $(this).css("border-color" , "#07090a"); 
        
-    }
+        }
     );
-
-            $(this).css("border-color:" , "#181F23"); 
-    }
-    );
-
+    
     function moveButton(){
         $("#button-catching").animate(
             { left: '+=50px' }, 500,
@@ -32,6 +28,5 @@ $(document).ready(function() {
         );
     }
 moveButton();
-
-
+});
 
