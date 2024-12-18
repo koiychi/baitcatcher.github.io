@@ -1,13 +1,12 @@
 //JQUERY
 $(document).ready(function() {
     //CODE HERE WITH JQUERY
-    $ ("p").hover(
+    $("p").hover(
         function() {
-            $(this).css("border-color" , "#ea680");
+            $(this).css("border-color:" , "#ea680");
         },
-   
         function(){
-            $(this).css("border-color" , "gray"); 
+            $(this).css("border-color:" , "#181F23"); 
        
     }
     );
