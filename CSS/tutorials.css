@@ -1,44 +1,49 @@
-
 .tutorial-logo{
-	margin-top: 70px;
-	width: 35%;
+  margin-top: 70px;
+  width: 35%;
   height: auto;
-<<<<<<< HEAD
-	display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-=======
->>>>>>> parent of 4600c61 (ye)
 }
+
 
 #heading {
-	margin-left: 35%;
-	margin-top: -50px;
+  margin-left: 35%;
+  margin-top: -50px;
 }
 #subheading {
-	margin-top: 60px;
+  margin-top: 60px;
 }
 
-<<<<<<< HEAD
+
 * {
     font-family: "Poppins";
 }
 
+
 .img-cellphone {
-	height: 700px; 
-	width: auto; 
-	border-radius: 10px; 
-	margin-top: -480px; 
-	margin-left: 900px;
+  height: 700px;
+  width: auto;
+  border-radius: 10px;
+  margin-top: -480px;
+  margin-left: 900px;
 }
 
+
 .img-messages {
-	margin-top: 30px;
-	height: auto; 
-	width: 1101px; 
-	display: block;
+  margin-top: 30px;
+  height: auto;
+  width: 1101px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
-=======
->>>>>>> parent of 4600c61 (ye)
+
+
+.img-profileCheck {
+  height: auto;
+  width: 733px;
+  margin-top: -350px;
+  margin-left: 700px;
+}
