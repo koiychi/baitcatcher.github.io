@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <!-- HEADER -->
     <header class="header">
         <a href="../index.html">
             <img class="logo" src="../logo.png">
@@ -22,11 +21,9 @@
             <a href="../index.html#features-overview">
                 <h4 class="features">Features</h4>
             </a>
-            
             <a href="../HTML/tutorials.html">
                 <h4 class="tutorials">Tutorials</h4>
             </a>
-
             <a href="../HTML/download.html">
                 <div class="downloadbox">
                     <h4 class="downloads">Downloads</h4>
@@ -35,65 +32,95 @@
         </div>
     </header>
 
-    <!--CODE WITHIN #content ONLY-->
     <div id="content">
-        <h1 style="color: white; font-size: 100px;">ABOUT DEVS PAGE</h1>
+        <h1 style="color: white; font-size: 100px; text-align: center; margin-bottom: 40px;">ABOUT DEVS PAGE</h1>
         <style>
-            mm {
+            #content {
                 display: block;
-                height: 100px;
-                width: 50px;
-                margin: 20px;
                 text-align: center;
+                margin: 20px;
             }
-            .circle-img{
+            .circle-img {
                 border-radius: 50%;
-                height: 250%;
-                width: 300%;
-                position: relative;
+                height: 150px;
+                width: 150px;
+                margin: 10px;
+                object-fit: cover;
+                display: inline-block;
+            }
+            .image-item {
+                text-align: center;
+                display: inline-block;
+                margin: 20px;
+            }
+            .highlighted-name {
+                font-size: 18px;
+                font-weight: bold;
+                color: #FF6347;
+                margin-top: 10px;
+            }
+            @media (max-width: 768px) {
+                .circle-img {
+                    height: 120px;
+                    width: 120px;
+                }
+                .image-item {
+                    margin: 15px;
+                }
             }
         </style>
-        <mm>
-        <img  class="circle-img" src=https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180">
-        <img  class="circle-img" src=https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180">
-        <img  class="circle-img" src=https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180">
-        <img  class="circle-img" src=https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180">
-        <img  class="circle-img" src=https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180">
-        <img  class="circle-img" src=https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180">
-        </mm>
+        <div class="image-item">
+            <img class="circle-img" src="https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180" alt="Image 1">
+            <p class="highlighted-name">Sarmiento</p>
+        </div>
+        <div class="image-item">
+            <img class="circle-img" src="https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180" alt="Image 2">
+            <p class="highlighted-name">Jenna</p>
+        </div>
+        <div class="image-item">
+            <img class="circle-img" src="https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180" alt="Image 3">
+            <p class="highlighted-name">Ephraim</p>
+        </div>
+        <div class="image-item">
+            <img class="circle-img" src="https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180" alt="Image 4">
+            <p class="highlighted-name">DonDon</p>
+        </div>
+        <div class="image-item">
+            <img class="circle-img" src="https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180" alt="Image 5">
+            <p class="highlighted-name">Rence</p>
+        </div>
+        <div class="image-item">
+            <img class="circle-img" src="https://tse2.mm.bing.net/th?id=OIP.HHGEwNeJGmReJ2Y2P9qxqwHaEK&pid=Api&P=0&h=180" alt="Image 6">
+            <p class="highlighted-name">Miles</p>
+        </div>
     </div>
 
-
-    <!-- FOOTER -->
     <footer>
         <div class="footer-logo">
             <img class="footer-img-logo" src="../images/footer/img-logo.png">
         </div>
-
         <div class="link-box">
             <div class="links">
                 <ul>
-                  <li><a id="link-features" href="../index.html#features-overview">Features</a></li>
-                  <li><a id="link-tutorials" href="../HTML/tutorials.html">Tutorials</a></li>
+                    <li><a id="link-features" href="../index.html#features-overview">Features</a></li>
+                    <li><a id="link-tutorials" href="../HTML/tutorials.html">Tutorials</a></li>
                 </ul>
                 <ul>
-                  <li><a id="link-download" href="../HTML/download.html">Download</a></li>
-                  <li><a id="link-aboutdevs" href="../HTML/aboutdevs.html">About the Developers</a></li>
+                    <li><a id="link-download" href="../HTML/download.html">Download</a></li>
+                    <li><a id="link-aboutdevs" href="../HTML/aboutdevs.html">About the Developers</a></li>
                 </ul>
-              </div>
-              <div class="contact">
+            </div>
+            <div class="contact">
                 <p>Contact us: <a id="link-email" href="mailto:email@baitcatcher.org">email@baitcatcher.org</a></p>
                 <div class="social-icons">
-                  <a href="https://www.facebook.com" target="_blank"><img src="../images/footer/logo-facebook.png" alt="Facebook"></a>
-                  <a href="https://www.instagram.com" target="_blank"><img src="../images/footer/logo-instagram.png" alt="Instagram"></a>
-                  <a href="https://www.tiktok.com" target="_blank"><img src="../images/footer/logo-tiktok.png" alt="TikTok"></a>
-                  <a href="https://www.youtube.com" target="_blank"><img src="../images/footer/logo-youtube.png" alt="YouTube"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="../images/footer/logo-facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../images/footer/logo-instagram.png" alt="Instagram"></a>
+                    <a href="https://www.tiktok.com" target="_blank"><img src="../images/footer/logo-tiktok.png" alt="TikTok"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="../images/footer/logo-youtube.png" alt="YouTube"></a>
                 </div>
-              </div>
+            </div>
         </div>
-
         <img class="footer-img-gradient" src="../images/footer/img-gradient.png">
-        
     </footer>
 </body>
 </html>
