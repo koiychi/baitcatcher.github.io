@@ -5,6 +5,14 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+	opacity: 0;
+	transform: translateY(-20px);
+	transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.tutorial-logo.fade-in {
+	opacity: 1;
+	transform: translateY(0);
 }
 
 
@@ -94,4 +102,5 @@ hr {
 	margin-left: auto;
   margin-right: auto;
   display: block;
+	position: relative;
 }
