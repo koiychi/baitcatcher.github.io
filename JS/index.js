@@ -23,6 +23,54 @@ function resethoverChangeBGEffect() {
     document.body.style.background = "radial-gradient(circle, rgba(7,9,10,1) 0%, rgba(7,9,10,1) 100%)";
 }
 
+var heading = [
+    "Spot the Red Flag", "#ProfileCheck", "Catch the Scam"
+];
+var p = [
+    "Learn about spotting the signs of an online scam.", "Does that profile represent a legit person? Learn how to differentiate a legit account to a fake one.", "Tell which is a scam and which is not."
+];
+var img = [
+    "../images/redflags.png", "../images/verified.png", "../images/scamcatch.png"
+]
+var link = [
+    "HTML/tutorials.html#spot", "HTML/tutorials.html#verify", "HTML/tutorials.html#catch"
+]
+
+var num = 0;
+
+function next() {
+    var textheading = document.getElementById("index-heading");
+    var textParagraph = document.getElementById("index-p");
+    var imageElement = document.getElementById("index-img");
+    var linkElement = document.getElementById("index-link");
+
+    num++;
+    if (num >= heading.length) {
+        num = 0;
+    }
+
+    textheading.innerHTML = heading[num];
+    textParagraph.innerHTML = p[num];
+    imageElement.src = img[num];
+    linkElement.href = link[num];
+}
+
+function prev() {
+    var textheading = document.getElementById("index-heading");
+    var textParagraph = document.getElementById("index-p");
+    var imageElement = document.getElementById("index-img");
+    var linkElement = document.getElementById("index-link");
+
+    num++;
+    if (num >= heading.length-1) {
+        num = 0;
+    }
+
+    textheading.innerHTML = heading[num];
+    textParagraph.innerHTML = p[num];
+    imageElement.src = img[num];
+    linkElement.href = link[num];
+}
 
 //JQUERY
 $(document).ready(function() {
