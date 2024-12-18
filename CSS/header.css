@@ -3,6 +3,7 @@
 html {
     font-size: 2px;
     scroll-behavior: smooth;
+    margin: 0;
 }
 body {
     font-family: "Poppins";
