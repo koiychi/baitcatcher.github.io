@@ -3,13 +3,12 @@ $(document).ready(function() {
     //CODE HERE WITH JQUERY
     $("p").hover(
         function() {
-            $(this).css("border-color:" , "#ea680");
+            $(this).mouseenter("border-color:" , "#ea680");
         },
         function(){
-            $(this).css("border-color:" , "#181F23"); 
+            $(this).mouseleave("border-color:" , "#181F23"); 
        
     }
     );
-
 });
 
