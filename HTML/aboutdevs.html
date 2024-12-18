@@ -42,7 +42,7 @@
             #content {
                 display: block;
                 text-align: center;
-                margin: 20px;
+                margin: 20px auto;
             }
             .circle-img {
                 border-radius: 50%;
@@ -53,6 +53,9 @@
                 display: inline-block;
             }
             .image-item {
+                display: inline-block;
+                vertical-align: top;
+                width: 200px;
                 text-align: center;
                 display: inline-block;
                 margin: 20px;
@@ -61,21 +64,27 @@
                 font-size: 18px;
                 font-weight: bold;
                 color: #FF6347;
-                margin-top: 10px;
+                margin-top: 10px 0;
             }
             @media (max-width: 768px) {
                 .circle-img {
-                    height: 120px;
-                    width: 120px;
+                    border-radius: 50%;
+                    height: 150px;
+                    width: 150px;
+                    margin-bottom: 10px;
+                    object-fit: cover;
                 }
                 .image-item {
                     margin: 15px;
                 }
                 
+
+
             }
         </style>
         <div class="image-item">
-            <img class="circle-img" src="../images/devs/dev-miles.png.png" alt="Image 1">
+            <img class="circle-img" src="../images/devs/dev-miles.png.png" alt="Image 1" class = "hover-image">
+            <p class="hover-text">Miles</p>
             <p class="highlighted-name">Miles</p>
             <ul style="text-align: left; display: inline-block; font-size: 18px; color:white;">
                 <li>. Graphic Designer</li>
@@ -92,6 +101,7 @@
                 <li>. Graphic Designer</li>
                 <li>. Web Developer</li>
                 <li>. Game Developer</li>
+                <li style="visibility: hidden;">&nbsp;</li>
             </ul>
         </div>
         <div class="image-item">
@@ -100,6 +110,8 @@
             <ul style="text-align: left; display: inline-block; font-size: 18px; color:white;">
                 <li>. Graphic Designer</li>
                 <li>. Web Developer</li>
+                <li style="visibility: hidden;">&nbsp;</li>
+                <li style="visibility: hidden;">&nbsp;</li>
             </ul>
             </ul>
         </div>
@@ -109,6 +121,8 @@
             <ul style="text-align: left; display: inline-block; font-size: 18px; color:white;">
                 <li>. Graphic Designer</li>
                 <li>. Web Developer</li>
+                <li style="visibility: hidden;">&nbsp;</li>
+                <li style="visibility: hidden;">&nbsp;</li>
                 
             </ul>
         </div>
@@ -118,11 +132,17 @@
             <ul style="text-align: left; display: inline-block; font-size: 18px; color:white;">
                 <li>. Graphic Designer</li>
                 <li>. Web Developer</li>
+                <li style="visibility: hidden;">&nbsp;</li>
+                <li style="visibility: hidden;">&nbsp;</li>
             </ul>
         </div>
         <div class="image-item">
             <img class="circle-img" src="../images/devs/dev-rence.png.png" alt="Image 6">
             <p class="highlighted-name">rence</p>
+            <li style="visibility: hidden;">&nbsp;</li>
+            <li style="visibility: hidden;">&nbsp;</li>
+            <li style="visibility: hidden;">Placeholder</li>
+            
             
             </ul>
         </div>
