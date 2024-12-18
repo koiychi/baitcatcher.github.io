@@ -168,6 +168,13 @@
 }
 #learnbutton{
     margin-top: 20px;
+    font-family: "Poppins";
+}
+#learnbutton:hover{
+    margin-top: 20px;
+    box-shadow: #ffffff 5px 5px;
+    transition: box-shadow 0.3s ease;
+    font-family: "Poppins";
 }
 
 #prev, #next{
@@ -198,4 +205,14 @@
     border-bottom-left-radius: 10px;
     color: #ea680a;
     transition: color 0.3s ease;
+}
+#catchbutton{
+    font-family: "Poppins";
+}
+#catchbutton:hover{
+    font-family: "Poppins";
+    color: #ea680a;
+    transition: color 0.3s ease;
+    box-shadow: #ea680a 5px 5px;
+    transition: box-shadow 0.3s ease;
 }
