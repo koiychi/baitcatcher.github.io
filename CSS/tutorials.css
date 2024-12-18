@@ -3,9 +3,12 @@
 	margin-top: 70px;
 	width: 35%;
   height: auto;
+<<<<<<< HEAD
 	display: block;
   margin-left: auto;
   margin-right: auto;
+=======
+>>>>>>> parent of 4600c61 (ye)
 }
 
 #heading {
@@ -16,6 +19,7 @@
 	margin-top: 60px;
 }
 
+<<<<<<< HEAD
 * {
     font-family: "Poppins";
 }
@@ -36,3 +40,5 @@
   margin-left: auto;
   margin-right: auto;
 }
+=======
+>>>>>>> parent of 4600c61 (ye)

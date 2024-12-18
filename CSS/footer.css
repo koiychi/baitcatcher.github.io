@@ -83,23 +83,3 @@ footer {
   .social-icons img {
     width: 20rem; /* Adjust size */
   }
-  #link-features:hover {
-    color: #ea680a;
-    transition: color 0.3s ease;
-  }
-  #link-tutorials:hover {
-    color: #ea680a;
-    transition: color 0.3s ease;
-  }
-  #link-download:hover {
-    color: #ea680a;
-    transition: color 0.3s ease;
-  }
-  #link-aboutdevs:hover {
-    color: #ea680a;
-    transition: color 0.3s ease;
-  }
-  #link-email:hover{
-    color: #ea680a;
-    transition: color 0.3s ease;
-  }
