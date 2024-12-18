@@ -62,3 +62,36 @@
 	margin-left: 700px;
 	margin-top: -430px;
 }
+
+hr {
+	border: 1px solid white;
+	width: 80%; 
+	margin-top: 80px;
+}
+
+.img-quote-learn2 {
+	width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+	margin-top: 120px;
+}
+
+#button-catching {
+	margin-top: 20px;
+	width: 260px;
+	height: 90px;
+	font-size: 30px;
+	color: #000;
+	background-color: rgba(128, 128, 128, 0.2);;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-family: 'Poppins';
+	color: white;
+	margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
