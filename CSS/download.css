@@ -38,7 +38,26 @@
 	color: white;
 	margin-bottom: 50px;
 }
+#button-download:hover {
+	margin-top: 10px;
+	width: 240px;
+	height: 90px;
+	font-size: 30px;
+	color: #000;
+	background-color: rgba(128, 128, 128, 0.2);;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-family: 'Poppins';
+	color: white;
+	margin-bottom: 50px;
+	box-shadow: #ea680a 5px 5px;
+    transition: box-shadow 0.3s ease;
+}
 
 button:hover {
 	background-color: #ea680a;
+	box-shadow: #ea680a 5px 5px;
+    transition: box-shadow 3s ease;
 }
