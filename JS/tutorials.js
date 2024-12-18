@@ -5,9 +5,15 @@ $(document).ready(function() {
     
     $("p").hover(
         function() {
-            $(this).css("border-color:" , "#ea680");
+            $(this).css("border-color", "#ea680a");
         },
         function(){
+
+            $(this).css("border-color" , "#07090a"); 
+       
+    }
+    );
+
             $(this).css("border-color:" , "#181F23"); 
     }
     );
@@ -26,5 +32,6 @@ $(document).ready(function() {
         );
     }
 moveButton();
-});
+
+
 
