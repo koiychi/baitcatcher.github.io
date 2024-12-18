@@ -37,6 +37,8 @@
     </header>
 
     <div id="content">
+        <h1 style="color: white; font-size: 100px; text-align: center; margin-bottom: 40px;">DEVELOPERS</h1>
+        <h1 style="color: white; font-size: 18px; text-align: center; margin-bottom: 5px;">On a mission of promoting online spaces safe from the crime of online scams</h1>
         <style>
             #content {
                 display: block;
@@ -44,6 +46,7 @@
                 margin: 20px auto;
             }
             .circle-img {
+                border: 5px solid transparent;
                 border-radius: 50%;
                 height: 150px;
                 width: 150px;
@@ -64,6 +67,7 @@
                 font-weight: bold;
                 color: #FF6347;
                 margin-top: 10px 0;
+                transition: color 0.3s ease;
             }
             @media (max-width: 768px) {
                 .circle-img {
@@ -72,9 +76,12 @@
                     width: 150px;
                     margin-bottom: 10px;
                     object-fit: cover;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
                 }
                 .image-item {
                     margin: 15px;
+                    
                 }
                 
 
@@ -84,7 +91,7 @@
         <div class="image-item">
             <img class="circle-img" src="../images/devs/dev-miles.png.png" alt="Image 1" class = "hover-image">
             <p class="hover-text">Miles</p>
-            <p class="highlighted-name">Miles</p>
+            <p class="highlighted-name">Miles Rodriguez</p>
             <ul style="text-align: left; display: inline-block; font-size: 18px; color:white;">
                 <li>. Graphic Designer</li>
                 <li>. Web Developer</li>
@@ -95,58 +102,78 @@
         </div>
         <div class="image-item">
             <img class="circle-img" src="../images/devs/dev-ephraim.png.png" alt="Image 2">
-            <p class="highlighted-name">Ephraim</p>
+            <p class="highlighted-name">Ephraim Calalang</p>
             <ul style="text-align: left; display: inline-block; font-size: 18px; color:white;">
                 <li>. Graphic Designer</li>
                 <li>. Web Developer</li>
                 <li>. Game Developer</li>
-                <li style="visibility: hidden;">&nbsp;</li>
+                
             </ul>
         </div>
         <div class="image-item">
             <img class="circle-img" src="../images/devs/dev-jenna.png.png" alt="Image 3">
-            <p class="highlighted-name">jenna</p>
+            <p class="highlighted-name">jenna Ramos</p>
             <ul style="text-align: left; display: inline-block; font-size: 18px; color:white;">
                 <li>. Graphic Designer</li>
                 <li>. Web Developer</li>
-                <li style="visibility: hidden;">&nbsp;</li>
-                <li style="visibility: hidden;">&nbsp;</li>
+                
+                
             </ul>
             </ul>
         </div>
         <div class="image-item">
             <img class="circle-img" src="../images/devs/dev-angel.png.png" alt="Image 4">
-            <p class="highlighted-name">sarmiento</p>
+            <p class="highlighted-name">Angel sarmiento</p>
             <ul style="text-align: left; display: inline-block; font-size: 18px; color:white;">
                 <li>. Graphic Designer</li>
                 <li>. Web Developer</li>
-                <li style="visibility: hidden;">&nbsp;</li>
-                <li style="visibility: hidden;">&nbsp;</li>
+                
                 
             </ul>
         </div>
         <div class="image-item">
             <img class="circle-img" src="../images/devs/dev-dondon.png.png" alt="Image 5">
-            <p class="highlighted-name">dondon</p>
+            <p class="highlighted-name">DonDon Decosta</p>
             <ul style="text-align: left; display: inline-block; font-size: 18px; color:white;">
                 <li>. Graphic Designer</li>
                 <li>. Web Developer</li>
-                <li style="visibility: hidden;">&nbsp;</li>
-                <li style="visibility: hidden;">&nbsp;</li>
+                
             </ul>
         </div>
         <div class="image-item">
             <img class="circle-img" src="../images/devs/dev-rence.png.png" alt="Image 6">
-            <p class="highlighted-name">rence</p>
-            <li style="visibility: hidden;">&nbsp;</li>
-            <li style="visibility: hidden;">&nbsp;</li>
-            <li style="visibility: hidden;">Placeholder</li>
-            
+            <p class="highlighted-name">rence santos</p>
             
             </ul>
         </div>
     </div>
+         <script>
+            const imageItems = document.querySelectorAll('.image-item');
 
+imageItems.forEach(item => {
+    const image = item.querySelector('.circle-img');
+    const text = item.querySelector('.highlighted-name');
+
+    item.addEventListener('mouseover', () => {
+        image.style.transform = 'scale(1.1)';
+        image.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+        image.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.2)';
+        if (text) {
+            text.style.color = '#FFA500';
+            text.style.transition = 'color 0.3s ease';
+        }
+    });
+
+    item.addEventListener('mouseout', () => {
+        image.style.transform = 'scale(1)';
+        image.style.boxShadow = 'none';
+        if (text) {
+            text.style.color = '#FF6347';
+        }
+    });
+});
+
+         </script>
     <footer>
         <div class="footer-logo">
             <img class="footer-img-logo" src="../images/footer/img-logo.png">
