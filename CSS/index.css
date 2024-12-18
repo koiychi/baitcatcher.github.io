@@ -55,11 +55,14 @@
 
     #features-overview {
         color: white;
-        position: absolute;
+        width: fit-content;
         font-size: 20rem;
-        font-family: "poppins regular";
-        bottom: 80rem;
+        font-family: "Poppins regular";
+        bottom: 380rem;
+        padding-top: 100rem;
         left: 320rem;
+        text-align: center;
+        position: sticky;
     }
     #otherbody{
         height: fit-content;
