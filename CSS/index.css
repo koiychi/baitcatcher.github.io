@@ -11,6 +11,9 @@
     }
 
 /* BODY */
+body {
+    overflow: hidden;
+}
     .body {
         height: fit-content;
         position: relative;
@@ -19,6 +22,7 @@
         color: #fff;
         margin: 0;
         padding: 0;
+
     }
     /* DIV - QUOTE */
     .div-img-quote-learn {
