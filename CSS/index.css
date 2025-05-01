@@ -50,7 +50,7 @@ body {
         left: 200rem;
         width: 200rem;
     }
-    .quote-learn {
+    .quote-learn .poppins-light{
         position: absolute;
         font-family: 'Poppins Light';
         font-size: 10rem;
