@@ -109,3 +109,6 @@
     font-style: italic;
   }
   
+  * { 
+    font-family: Poppins, sans-serif;
+  }
