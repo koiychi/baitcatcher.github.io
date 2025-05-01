@@ -27,7 +27,7 @@ body {
     padding-right: calc(+200px);
     bottom: 25px;
     left: 150px; */
-    
+    font-family: "Poppins";
 }
     .body {
         height: fit-content;
