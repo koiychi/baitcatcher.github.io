@@ -6,6 +6,7 @@ setInterval(function() {
 }, 5000);
 
 
+alert("View in Desktop mode");
 
 //HOVER: "EXPERIENCE"
 function hovertosee() {
